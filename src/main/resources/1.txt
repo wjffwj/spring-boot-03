@@ -1,0 +1,10 @@
+配置文件的加载位置
+springboot启动的时候会扫描以下位置的配置文件 application.properties  或application.yml
+优先级如下从高到低
+高优先级的配置会覆盖低优先级的配置
+SpringBoot会从这四个位置进行互补配置
+
+file ./config
+file ./
+classpath:/config
+classpath: /
