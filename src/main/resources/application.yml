@@ -1,0 +1,21 @@
+spring:
+  profiles: dev
+user:
+  id: 1
+  name: wjffwj
+  pwd: wjffwj
+---
+spring:
+  profiles: test
+user:
+  id: 2
+  name: gym
+  pwd: gym
+
+---
+spring:
+  profiles: prd
+user:
+  id: 3
+  name: ahahaaha
+  pwd: ahahaha
